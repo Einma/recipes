@@ -1,0 +1,93 @@
+@import url("../css/link.css");
+
+
+body {
+background-color: #ffffff;
+opacity: 1;
+background-image: radial-gradient(#4c997f 0.9px, #ffffff 0.9px);
+background-size: 18px 18px;
+}
+
+html {
+    box-sizing: border-box;
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+    
+.header-container {
+    width: 100%;
+    height: 25px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-shadow: 0px 0px 1px #008056;
+/*    box-shadow: 0px 0px 4px #008056;*/
+}
+
+.top {
+/*    background-color: antiquewhite;*/
+    flex-basis: 30%;
+    display: inherit;
+}
+
+.top.buttons {
+    justify-content: center;
+}
+
+.about-text {
+    align-self: center;
+}
+
+.top.logo {
+    justify-content: center;
+    align-content: center;
+}
+
+h1.logo-text {
+    align-self: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.recipe {
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    transition: 100ms;
+}
+
+.recipe:hover{
+    border-radius: 5%;
+}
+
+.food-images {
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    transition: 100ms;
+}
+
+.food-images:hover{
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+
